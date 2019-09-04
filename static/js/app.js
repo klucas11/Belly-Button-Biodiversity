@@ -44,7 +44,12 @@ function buildCharts(sample) {
       }
     }];
 
-    Plotly.newPlot("bubble", bubbleChart);
+    var layout = {
+      title: "Belly Button Bacteria",
+      xaxis: { title: "OTU ID" }
+    };
+
+    Plotly.newPlot("bubble", bubbleChart, layout);
 
 
   });
@@ -65,8 +70,9 @@ function buildCharts(sample) {
 
     var layout = {
       height: 400,
-      width: 800,
+      width: 500,
       showlegend: true,
+      title: "Bacteria % by ID"
     };
 
     Plotly.newPlot("pie", pieChart, layout);
