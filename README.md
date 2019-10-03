@@ -9,11 +9,7 @@ This project was my first foray into building an interactive dashboard and deplo
 * flask_sqlalchemy
 * Plotly.js
 
-### How To Run
-Use the link above to view the deployed app OR follow instructions below to run on your local server:
-* `<pip install -r requirements.txt>` before starting your server
-* Run app.py in the terminal to start your server
-* Follow the link when prompted to get to the app
+### [View The Dashboard On Heroku](https://belly-button-biodiversity-kl.herokuapp.com/)
 
 ### Dashboard Interactions
 * Use the dropdown to select a sample
